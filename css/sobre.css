@@ -2,7 +2,7 @@ body {
     width: 940px;
     margin-left: auto;
     margin-right: auto;
-
+    
     font-family: Helvetica, Lucida Grande, sans-serif;
     color: #3D3D3D
 }
@@ -27,21 +27,55 @@ figure {
     border: 1px solid lightgray;
 }
 
+.foto-historia {
+    margin: 15px;
+    padding: 10 px;
+}
+
 figcaption {
-    margin-top: 10px;
+    margin-top: 5px;
+    font-size: 10pt;
 }
 
 li {
     color: rgb(26, 13, 91);
 }
 
-.contato {
-    margin-bottom: 5px;
-}
-
 small {
     font-size: 0.8em;
     color: gray;
-
+    
     margin-bottom: 10px;
+}
+
+.historia img {
+    max-width: 280px;
+}
+
+.historia { 
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.inicio-texto-historia {
+    margin-top: 1px;
+}
+
+.contato-info-titulo,
+.contato-info-descricao {
+    display: inline;
+    margin-left: 10px;  
+
+}
+
+.contato { 
+    display: flex;
+    justify-content: left;
+}
+
+.contato-subtitulo {
+    margin-right: 150px;
+    margin-bottom: 5px;
+    margin-top: 5px
 }
